@@ -2,11 +2,17 @@
  * @Descripttion: 
  * @version: 
  * @Author: Lianglin
- * @Date: 2020-02-19 16:09:26
+ * @Date: 2020-02-20 10:02:21
  * @LastEditors: Lianglin
- * @LastEditTime: 2020-02-20 10:36:18
+ * @LastEditTime: 2020-02-20 10:58:41
  -->
-> vue快速开发模板
+### vue快速开发模板
+
+##### 运行方式
+> * npm install  
+> - npm run dev   
+
+
 ##### 文件目录结构
 .vscode     用户代码片段（快捷键）
 
