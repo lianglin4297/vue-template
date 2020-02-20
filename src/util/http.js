@@ -4,22 +4,12 @@
  * @Author: Lianglin
  * @Date: 2020-02-19 17:05:53
  * @LastEditors: Lianglin
- * @LastEditTime: 2020-02-19 17:13:34
+ * @LastEditTime: 2020-02-20 10:35:56
  */
 import axios from 'axios';
 import QS from 'qs'; // 引入qs模块，用来序列化post类型的数据，后面会提到
 axios.defaults.timeout = 5000;
 axios.defaults.baseURL = 'http://www.baidu.com'; //填写域名
-
-// 环境的切换
-// if (process.env.NODE_ENV == 'development') {    
-//     axios.defaults.baseURL = 'https://www.baidu.com';} 
-// else if (process.env.NODE_ENV == 'debug') {    
-//     axios.defaults.baseURL = 'https://www.ceshi.com';
-// } 
-// else if (process.env.NODE_ENV == 'production') {    
-//     axios.defaults.baseURL = 'https://www.production.com';
-// }
 
 //http request 拦截器
 axios.interceptors.request.use(
